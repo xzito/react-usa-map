@@ -24,7 +24,8 @@
         "lint": "eslint ./src",
         "lintfix": "eslint ./src --fix",
         "pretest": "yarn run lint",
-        "test": "jest --coverage"
+        "test": "jest --coverage",
+        "postinstall": "cd ./node_modules/react-usa-map && yarn install && yarn run prepublish"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
