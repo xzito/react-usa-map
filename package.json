@@ -25,7 +25,7 @@
         "lintfix": "eslint ./src --fix",
         "pretest": "yarn run lint",
         "test": "jest --coverage",
-        "postinstall": "yarn install && yarn run prepublish"
+        "postinstall": "yarn && yarn run prepublish"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
