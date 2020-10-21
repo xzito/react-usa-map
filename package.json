@@ -25,6 +25,7 @@
         "lintfix": "eslint ./src --fix",
         "pretest": "yarn run lint",
         "test": "jest --coverage",
+        "install": "yarn install",
         "postinstall": "yarn run prepublish"
     },
     "devDependencies": {
